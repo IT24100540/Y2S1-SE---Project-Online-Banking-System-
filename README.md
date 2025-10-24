@@ -44,11 +44,13 @@ Step 3 - Build and Run
 Reload Maven - Right-click pom.xml > Maven > Reload Project (wait for dependencies to download).
 Build - Build > Rebuild Project (ensure 0 errors).
 Run - Right-click BankingSystemApplication.java > Run (console shows "Started... Tomcat on 8080").
-Access - Browser > http://localhost:8080/login. (Create your own admin and bankstaff)
+Access - Browser > http://localhost:8081/login. (Create your own admin and bankstaff)
 
 
 Troubleshooting
 
 DB connection fail - Check application.properties password and MySQL service running.
+
 Reds in code - Reload Maven, rebuild.
+
 Error page - Check console logs for details.
